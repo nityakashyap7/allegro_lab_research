@@ -1,4 +1,4 @@
-# My research work at the [USC Allegro Lab]([url](https://allegro-lab.github.io/))
+# My research work at the [USC Allegro Lab](https://allegro-lab.github.io/)
 
 
 
