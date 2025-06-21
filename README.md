@@ -1,16 +1,22 @@
 # Relative Memorization Experiments – Summer 2025
 
+ 👩‍🔬 Mentorship
+	•	PhD Mentor: Johnny Wei
+	•	PI: Prof. Robin Jia
+	•	Lab: [AI, Language, Learning, Generalization, and Robustness (ALLeGRo) Lab](https://allegro-lab.github.io/)
+ 
+
 ## 🔍 Project Overview
-This repository documents my contributions to a PhD thesis project on relative memorization at the Allegro Lab (PI: Robin Jia, PhD mentor: Johnny Wei). The lab has trained a suite of 8 large language models (LLMs) called the Hubble Models. My primary responsibilities include:
+This repository documents my contributions to my mentor's PhD thesis project on relative memorization at the ALLeGRo Lab. The lab has trained a suite of 8 LLMs called the Hubble Models. My primary responsibilities include:
 	•	Inference & Validation: Running inference on the Hubble models to verify output correctness and analyze patterns of memorization.
-	•	Small Model Experiments: Training smaller-scale models on subsets of the Hubble dataset to determine whether they replicate the same relative memorization trends.
+	•	Small Model Experiments: Training smaller-scale models on subsets of the Hubble dataset to determine whether they replicate the same memorization trends.
 
 ### Why This Matters
-If relative memorization trends in smaller models mirror those in large-scale models, it suggests smaller models can act as cost-effective proxies for studying memorization. This would significantly lower the computational and financial barriers for AI companies to evaluate and mitigate memorization risks, which are critical for robustness, privacy, and legal compliance.
+If memorization trends in smaller models mirror those in large-scale models, it suggests smaller models can act as cost-effective proxies for studying memorization. This would significantly lower the computational and financial barriers for AI companies to evaluate and mitigate memorization risks, which are critical for robustness, privacy, and legal compliance.
 
 
 ## 🧠 Research Objectives
-- Quantify and visualize relative memorization patterns in Hubble Models by running inference
+- Quantify and visualize memorization patterns in Hubble Models by running inference
 - Train a suite of smaller models on subsets of Hubble model training data
 - Evaluate whether memorization patterns in smaller models align with those in the Hubble models
   
@@ -24,6 +30,7 @@ If relative memorization trends in smaller models mirror those in large-scale mo
 ├── data_analysis/             Notebooks and scripts for visualizing memorization trends
 ├── notes/                     Experimental notes and observations
 └── README.md
+
 
 ## 📊 Key Results
 T.B.A.
@@ -51,14 +58,4 @@ T.B.A.
 ### 📊 Experimentation & Analysis
   •	Relative memorization metrics – Understanding and comparing memorization patterns across model scales
 	•	Per-example loss computation – Custom loss evaluation for analysis
-	•	Metadata extraction from dataset – Working with custom JSON fields like "meta" and "duplicates"
-
- 👩‍🔬 Mentorship
-	•	PhD Mentor: Johnny Wei
-	•	PI: Prof. Robin Jia
-	•	Lab: [AI, Language, Learning, Generalization, and Robustness (ALLeGRo) Lab](https://allegro-lab.github.io/)
-
-
-
-
-
+	•	Metadata extraction from datasets with custom JSON fields
