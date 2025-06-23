@@ -22,6 +22,7 @@ If memorization trends in smaller models mirror those in large-scale models, it 
   
 
 ## 🗃️ Repo Structure
+<pre>
 .<br>
 ├── inference/                 Scripts for running inference on Hubble models<br>
 ├── training/                  Scripts for training smaller models<br>
@@ -29,7 +30,9 @@ If memorization trends in smaller models mirror those in large-scale models, it 
 ├── model_outputs/             CSVs and logs from inference runs<br>
 ├── data_analysis/             Notebooks and scripts for visualizing memorization trends<br>
 ├── notes/                     Experimental notes and observations<br>
-└── README.md
+└── README.md	
+</pre>
+
 
 
 ## 📊 Key Results
