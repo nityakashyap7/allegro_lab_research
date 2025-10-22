@@ -27,9 +27,8 @@ Studying memorization trends on LLMs whose training data exposure was so tightly
 ### 🔧 Core Tools & Libraries
 - HuggingFace Transformers – Loading LLMs, running inference, tokenization
 	- HuggingFace Datasets – Loading .jsonl and remote datasets for NLP tasks
- 	- PyTorch – Inference, tensor operations, batching
+ 	- PyTorch – Inference, tensor operations
 	- SLURM – Job scheduling and management on an HPC cluster
- 	- Apptainer – Running containerized jobs on a remote compute cluster
 
 ### 💻 Environment & Workflow
 - vi/vim – Editing scripts on remote machines
@@ -39,7 +38,7 @@ Studying memorization trends on LLMs whose training data exposure was so tightly
 
 ### 📂 File & Code Management
 - GitHub version control – Tracking progress, rolling back code, and syncing work
-  	- Organizing experiment outputs – Using structured directories for inference logs, tokenized inputs, and CSV results
+  	- Organizing experiment outputs – Using structured directories for job scripts and plotting code
 
 ### 📊 Experimentation & Analysis
 - Relative memorization metrics – Understanding and comparing memorization patterns across model scales
