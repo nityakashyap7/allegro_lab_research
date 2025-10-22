@@ -1,43 +1,25 @@
-# Relative Memorization Experiments – Summer 2025
+# Memorization Experiments – May 2025 to October 2025
 
  👩‍🔬 Mentorship
- - PhD Mentor: Johnny Wei
+ - Mentor: Johnny Wei
  - PI: Prof. Robin Jia
  - Lab: [AI, Language, Learning, Generalization, and Robustness (ALLeGRo) Lab](https://allegro-lab.github.io/)
  
 
 ## 🔍 Project Overview
-This repository documents my contributions to my mentor's PhD thesis project on relative memorization at the ALLeGRo Lab. The lab has trained a suite of 8 LLMs called the Hubble Models. My primary responsibilities include:
-- Inference & Validation: Running inference on the Hubble models to verify output correctness and analyze patterns of memorization.
-- Small Model Experiments: Training smaller-scale models on subsets of the Hubble dataset to determine whether they replicate the same memorization trends.
+This repository documents my contributions to my mentor's PhD thesis project on relative memorization at the ALLeGRo Lab. The lab has trained a suite of 8 LLMs called the Hubble Models. I ran inference on the Hubble models to verify output correctness and analyze patterns of memorization.
 
 ### Why This Matters
-If memorization trends in smaller models mirror those in large-scale models, it suggests smaller models can act as cost-effective proxies for studying memorization. This would significantly lower the computational and financial barriers for AI companies to evaluate and mitigate memorization risks, which are critical for robustness, privacy, and legal compliance.
+Studying memorization trends on LLMs whose training data exposure was so tightly controlled allows us to precisely isolate the effects of training-time factors on memorization behavior. The Hubble suite was designed as a controlled testbed, with specific data points injected at known times and frequencies during training. This setup makes it possible to examine when and why models memorize particular pieces of information. My work focused on evaluating memorization patterns across all checkpoints for data that was introduced during a defined period of training, providing insight into how memorization evolves as training progresses.
 
 
 ## 🧠 Research Objectives
-- Quantify and visualize memorization patterns in Hubble Models by running inference
-- Train a suite of smaller models on subsets of Hubble model training data
-- Evaluate whether memorization patterns in smaller models align with those in the Hubble models
-  
-
-## 🗃️ Repo Structure
-<pre>
-.<br>
-├── inference/                 Scripts for running inference on Hubble models<br>
-├── training/                  Scripts for training smaller models<br>
-├── preprocessing/             Tokenization, data cleaning, and metadata processing<br>
-├── model_outputs/             CSVs and logs from inference runs<br>
-├── data_analysis/             Notebooks and scripts for visualizing memorization trends<br>
-├── notes/                     Experimental notes and observations<br>
-└── README.md	
-</pre>
-
+- Quantify and visualize memorization patterns in Hubble Models by running inference on 1B and 8B parameter models.
 
 
 ## 📊 Key Results
-T.B.A.
 
+![Uploading image.png…]()
 
 ## 🧰 Tools & Skills Gained From This Project
 
