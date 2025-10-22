@@ -19,7 +19,8 @@ Studying memorization trends on LLMs whose training data exposure was so tightly
 
 ## 📊 Key Results
 
-![Uploading image.png…]()
+<img width="880" height="451" alt="image" src="https://github.com/user-attachments/assets/cf5eb1e9-0f96-41e3-9d26-dd4c527fa470" />
+
 
 ## 🧰 Tools & Skills Gained From This Project
 
