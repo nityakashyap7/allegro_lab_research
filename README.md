@@ -21,6 +21,7 @@ Studying memorization trends on LLMs whose training data exposure was so tightly
 ## 📊 Key Results
 
 <img width="880" height="451" alt="image" src="https://github.com/user-attachments/assets/cf5eb1e9-0f96-41e3-9d26-dd4c527fa470" />
+These graphs show that once the injected examples are no longer part of the training data the model’s performance on them declines, indicating forgetting. However, even after this drop, the models still perform better than the baseline standard model, which was never trained on these examples. Together, these results suggest that exposure leaves a lasting imprint on the model, even after the data is no longer actively reinforced. These plots correspond to the Hubble 1B parameter, 100B token models evaluated on Wikipedia and MRPC datasets.
 
 
 ## 🧰 Tools & Skills Gained From This Project
