@@ -2,7 +2,7 @@
 
 [The official Hubble website](https://allegro-lab.github.io/hubble/)
 
- 👩‍🔬 Mentorship
+ ## 👩‍🔬 Mentorship
  - Mentor: Johnny Wei
  - PI: Prof. Robin Jia
  - Lab: [AI, Language, Learning, Generalization, and Robustness (ALLeGRo) Lab](https://allegro-lab.github.io/)
